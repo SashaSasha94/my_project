@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Odibee+Sans&family=Oswald:wght@600&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@700&family=Teko:wght@600&display=swap');
+body {
+  margin: 0;
+  font-family:'Inter', system-ui;
+  background-color: #e7f6ff;
+  height: 100%;
+
+}
+
+*{
+  font-family: 'Inter',system-ui;
+}
+.wrapper {
+  /* основной блок */
+
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 50px  auto;
+  
+  
+ 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+header {
+  border-bottom: 1px solid #eaeaea
+}
+.header_left{
+  display: flex;
+  align-items: center;
+}
+h3, p {
+  margin: 0;
+}
+p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+img {
+  margin-right: 15px;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  margin-right: 30px;
+  list-style-type: none;
+}
+h3 {
+  text-transform: uppercase;
+}
+.content {
+  padding: 40px;
+}
+.content h1 {
+  margin: 0px;
+  
+}
+.card{
+  border: 1px solid #f8f8f8;
+  padding: 30px;
+  width: 170px;
+  height: 215px;
+  border-radius: 40px;
+  margin-top: 40px;
+  
+}
+.card_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_under_bottom{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  background-color: #FFFFFF;
+  border: 1px solid#F2F2F2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+h5{
+  font-weight: 400;
+  font-size: 14px;
+}
+.d_flex{
+display: flex;
+justify-content: space-between;
+}
+span{
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.card{
+  border: 1px solid #f8f8f8;
+  padding: 30px;
+  width: 170px;
+  height: 270px;
+  border-radius: 40px;
+  margin-top: 40px;
+  transition: box-shadow 0,2s ease-in-out, transform 0,2s ease-in-out;
+
+}
+.card:hover{
+ box-shadow: 0px 20px 30px rgba(0,0,0,0.06);
+ transform: translateY(-5px);
+}
+
+.search_block{
+  border: 1px solid #F2F2F2;
+  display: flex;
+  border-radius: 10px;
+  padding: 0 15px;
+
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input{
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  width: 200px;
+}
+.like{
+  cursor: pointer;
+}
+
+.overlay{
+ position: absolute;
+ left: 0;
+ top: 0;
+ background-color: rgba(0,0,0,0.1);
+ width: 100%;
+ height: 900px;
+ z-index: 1;
+}
+
+
+
+.drawer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 385px;
+  right: 0;
+  height: 800px;
+  background-color: #FFFFFF;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+h2 {
+  margin: 0;
+  font-size: 30px;
+
+}
+.cart_item{
+  display: flex;
+  align-items: center;
+  border: 1px solid#f3f3f3;
+  border-radius: 20px;
+  width: max-content;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+
+}
+.mb-5{
+  margin-bottom: 5px;
+}
+.img_bear{
+  margin-top: 25px;
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: 0 -5px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+}
+.delete{
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+
+.li_items{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  
+}
+.cart_block_cost div{
+flex: 1;
+height: 1px;
+border-bottom: 1px dashed #dfdfdf;
+position: relative;
+top: 17px;
+margin: 0 7px;
+width: 170px;
+
+}
+.cart_block_cost{
+  display: block;
+  margin-left: -35px;
+  margin-bottom: 40px;
+
+}
+.basket_text{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.items_under_cards{
+  margin-top: 250px;
+}
+.button_basket{
+  width: 250px;
+  height: 45px;
+  border-radius: 18px;
+  background-color: #9dd558;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 46px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+.button_basket:hover{
+ background-color:#82be39;
+}
+.basket_delete{
+  display: flex;
+  justify-content: space-between;
+}
+.deletedouble{
+  cursor: pointer;
+}
